@@ -1,10 +1,10 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.7413c471-1f8e-4cb0-adf2-2474b3b11564",
       "was_cloned": false,
       "merge": {
-        "skillManifest": {
+        "manifest": {
           "apis": {
             "custom": {
               "endpoint": {
@@ -13,6 +13,27 @@
             }
           }
         }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "b7e602f6ea3b61486811b4f02162f3e3"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "57f138105af99820445a38620b050c3b"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:351845296976:function:ask-custom-trivia-default",
+            "functionName": "arn:aws:lambda:us-east-1:351845296976:function:ask-custom-trivia-default",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "979e2fd0-15f6-47df-849d-e91941f9bd30"
+          }
+        ]
       }
     }
   }

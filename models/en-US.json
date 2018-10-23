@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "reindeer trivia",
+      "invocationName": "pokemon or cryptocurrency",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",

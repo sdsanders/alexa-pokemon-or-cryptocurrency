@@ -1,16 +1,16 @@
 {
-  "skillManifest": {
+  "manifest": {
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Sample Short Description",
+          "summary": "Guess if it's the name of a pokemon or a cryptocurrency",
           "examplePhrases": [
-            "Alexa open reindeer trivia",
-            "Alexa tell reindeer trivia to start a game",
-            "Alexa tell reindeer trivia I want to play"
+            "Alexa open pokemon or cryptocurrency",
+            "Alexa tell pokemon or cryptocurrency to start a game",
+            "Alexa tell pokemon or cryptocurrency I want to play"
           ],
-          "name": "reindeer trivia",
-          "description": "Sample Full Description"
+          "name": "Pokemon or Cryptocurrency",
+          "description": "With all the new tokens and ICOs these days, it can be difficult to know which is a cryptocurrency and which is a Pokemon."
         }
       },
       "isAvailableWorldwide": true,
